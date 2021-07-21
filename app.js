@@ -11,7 +11,7 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
-const cors = require('cors');
+var cors = require('cors');
 app.use(cors());
 
 // view engine setup
