@@ -26,7 +26,7 @@ html
       style: 'mapbox://styles/mapbox/streets-v11',
       zoom: 0
       });
-      var url = 'http://uoweb3.ncl.ac.uk/api/v1.1/sensors/types/json/?theme=Weather';
+      var url = 'https://data.bus-data.dft.gov.uk/api/v1/datafeed/?api_key=cdf741c849322a14d365291e5d4507354c268802&boundingBox=-1.717%2C54.903%2C-1.432%2C55.03';
       map.on('load', function () {
       var request = new XMLHttpRequest();
       window.setInterval(function () {
